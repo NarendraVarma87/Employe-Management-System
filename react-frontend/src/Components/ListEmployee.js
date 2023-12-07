@@ -44,7 +44,7 @@ export default function ListEmployee() {
                         <td>{employee.firstName}</td>
                         <td>{employee.lastName}</td>
                         <td>{employee.email}</td>
-                        <td><Link to="/update-employee/1" className="btn btn-info mx-3" >Update</Link>
+                        <td><Link to={"/update-employee/"+employee.id} className="btn btn-info mx-3" >Update</Link>
                         <button onClick={()=>deleteHandler(employee.id)} className="btn btn-danger mx-3">Delete</button>
                         </td>
                     </tr>
