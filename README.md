@@ -1,4 +1,4 @@
-# Full-Stack-Project
+# Employe-Management-System
  This Employee Management System uses ReactJS for a dynamic UI, Spring Boot for a robust back-end API, and MySQL for efficient data storage. It includes features like Adding , Updating , Deleting , Fetching employee , ensuring scalability for organizational growth.
 # Purpose
 Employees are the backbone of any company therefore their contribution plays a major role in deciding the success of an organization.
